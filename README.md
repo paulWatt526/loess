@@ -9,7 +9,7 @@ updated to fix the security issues.
 First install the package:
 
 ```
-npm install @paulWatt526/loess --save
+npm install @paulwatt526/loess --save
 ```
 
 Load in your data:

@@ -1,5 +1,5 @@
 {
-  "name": "@paulWatt526/loess",
+  "name": "@paulwatt526/loess",
   "version": "1.3.5",
   "description": "Fork of JavaScript implementation of the Locally-Weighted Regression package originally written in C by Cleveland, Grosse and Shyu (1992). This fork updates dependencies to fix security issues.",
   "main": "dist/index.js",
