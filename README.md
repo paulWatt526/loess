@@ -1,13 +1,15 @@
 # loess
 
-JavaScript implementation of the Locally-Weighted Regression package originally written in C by Cleveland, Grosse and Shyu (1992)
+Fork of a JavaScript implementation of the Locally-Weighted Regression package originally written in C by Cleveland,
+Grosse and Shyu (1992).  This fork addresses security issues with project dependencies.  The dependencies have been
+updated to fix the security issues.
 
 ## Getting started
 
 First install the package:
 
 ```
-npm install loess --save
+npm install @paulWatt526/loess --save
 ```
 
 Load in your data:

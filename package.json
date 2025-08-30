@@ -1,23 +1,23 @@
 {
-  "name": "loess",
+  "name": "@paulWatt526/loess",
   "version": "1.3.5",
-  "description": "JavaScript implementation of the Locally-Weighted Regression package originally written in C by Cleveland, Grosse and Shyu (1992)",
+  "description": "Fork of JavaScript implementation of the Locally-Weighted Regression package originally written in C by Cleveland, Grosse and Shyu (1992). This fork updates dependencies to fix security issues.",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && mkdir dist && babel src --out-dir dist",
     "prepublish": "npm run build && npm run test",
-    "test": "standard && mocha --compilers js:babel-core/register"
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yongjun21/loess.git"
+    "url": "git+https://github.com/paulWatt526/loess.git"
   },
   "author": "Yong Jun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yongjun21/loess/issues"
+    "url": "https://github.com/paulWatt526/loess/issues"
   },
-  "homepage": "https://github.com/yongjun21/loess#readme",
+  "homepage": "https://github.com/paulWatt526/loess#readme",
   "keywords": [
     "statistic",
     "regression",
